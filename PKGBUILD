@@ -1,5 +1,5 @@
 pkgname='python3-scipy'
-pkgver=0.15.0
+pkgver=0.15.1
 pkgrel=1
 pkgdesc="SciPy is a Python-based ecosystem of open-source software for mathematics, science, and engineering."
 arch=('x86_64')
@@ -8,7 +8,7 @@ license=('BSD')
 makedepends=('gcc-fortran' 'python3-numpy' 'python3-setuptools')
 optdepends=('python3-nose')
 source=("https://pypi.python.org/packages/source/s/scipy/scipy-${pkgver}.tar.gz")
-md5sums=('639112f077f0aeb6d80718dc5019dc7a')
+md5sums=('be56cd8e60591d6332aac792a5880110')
 
 build() {
   export LDFLAGS="-Wall -shared"
